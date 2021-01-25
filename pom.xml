@@ -23,6 +23,7 @@
         <some.custom.prop>foo bar</some.custom.prop>
         <jaxb.version>2.3.0</jaxb.version>
     </properties>
+
     <dependencyManagement>
         <dependencies>
            <dependency>
@@ -42,6 +43,13 @@
             </dependency>
        </dependencies>
     </dependencyManagement>
+    <dependencies>
+        <dependency>
+            <groupId>org.jboss.ejb3</groupId>
+            <artifactId>jboss-ejb3-api</artifactId>
+            <version>3.1.0</version>
+        </dependency>
+    </dependencies>
     <build>
         <plugins>
             <plugin>
@@ -50,4 +58,9 @@
             </plugin>
         </plugins>
     </build>
+    <profiles>
+        <profile>
+            <id>jboss</id>
+        </profile>
+    </profiles>
 </project>
