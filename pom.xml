@@ -14,7 +14,7 @@
     </parent>
     <groupId>guru.springframework</groupId>
     <artifactId>my-spring-boot</artifactId>
-    <version>1.1</version>
+    <version>1.2-SNAPSHOT</version>
     <name>my-spring-boot</name>
     <description>Demo project for Spring Boot</description>
     <properties>
@@ -116,6 +116,6 @@
     <scm>
         <developerConnection>scm:git:https://github.com/aCodeRancher/my-spring-boot.git</developerConnection>
         <url>https://github.com/aCodeRancher/my-spring-boot</url>
-        <tag>my-spring-boot-1.1</tag>
+        <tag>HEAD</tag>
     </scm>
 </project>
