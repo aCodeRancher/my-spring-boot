@@ -44,7 +44,7 @@
        </dependencies>
     </dependencyManagement>
     <dependencies>
-      <!-- <dependency>
+      <dependency>
             <groupId>org.jboss.ejb3</groupId>
             <artifactId>jboss-ejb3-api</artifactId>
             <version>3.1.0</version>
@@ -58,7 +58,7 @@
             <groupId>com.oracle.database.jdbc</groupId>
             <artifactId>ojdbc8</artifactId>
             <version>21.1.0.0</version>
-        </dependency>-->
+        </dependency>
     </dependencies>
     <build>
         <plugins>
