@@ -44,13 +44,13 @@
        </dependencies>
     </dependencyManagement>
      <dependencies>
-       <dependency>
+      <!-- <dependency>
             <groupId>org.jboss.ejb3</groupId>
             <artifactId>jboss-ejb3-api</artifactId>
             <version>3.1.0</version>
         </dependency>
-      <!-- <dependency>
-            <groupId>com.oracle</groupId>
+       <dependency>
+             <groupId>com.oracle</groupId>
             <artifactId>ojdbc7</artifactId>
             <version>12.1.0.2</version>
         </dependency>
