@@ -114,4 +114,9 @@
             </releases>
         </pluginRepository>
     </pluginRepositories>
+    <scm>
+        <developerConnection>scm:git:https://github.com/aCodeRancher/my-spring-boot.git</developerConnection>
+        <url>https://github.com/aCodeRancher/my-spring-boot</url>
+        <tag>HEAD</tag>
+    </scm>
 </project>
