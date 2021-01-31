@@ -3,7 +3,7 @@
           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
           xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 http://maven.apache.org/xsd/settings-1.0.0.xsd">
   <servers>
-      <server>
+     <!-- <server>
           <id>maven.oracle.com</id>
           <username>hhma@alumni.cpp.edu</username>
           <password>{VWQ+rTM/3Y0Hao/pWWBbn4OOrALsA7tHPomdHlL3eLFRLbABpUXihHyLQrXO2n77}</password>
@@ -24,7 +24,7 @@
                   </all>
               </httpConfiguration>
           </configuration>
-      </server>
+      </server>-->
       <server>
           <username>helenma33</username>
           <id>packagecloud.release</id>
