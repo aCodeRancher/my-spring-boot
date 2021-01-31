@@ -36,6 +36,8 @@ jobs:
           paths:
             - ~/.m2
           key: v1-dependencies-{{ checksum "pom.xml" }}
-      - run: mvn deploy -s .circleci/settings.xml
+      - run: git config user.email "hhma@alumni.cpp.edu"
+      - run: git config user.name "aCodeRancher"
+      - run: mvn --batch-mode release:prepare releasse:perform -s .circleci/settings.xml
 
 
