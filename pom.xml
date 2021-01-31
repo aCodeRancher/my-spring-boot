@@ -21,6 +21,7 @@
         <java.version>11</java.version>
         <some.custom.prop>foo bar</some.custom.prop>
         <jaxb.version>2.3.0</jaxb.version>
+        <project.scm.id>github</project.scm.id>
     </properties>
 
     <dependencyManagement>
