@@ -28,12 +28,12 @@
       <server>
           <username>helenma33</username>
           <id>packagecloud.release</id>
-          <password>882347cc0631ecb8d15c0cb784e04639379468cceee53553</password>
+          <password>${env.PCLOUD}</password>
      </server>
       <server>
           <username>helenma33</username>
           <id>packagecloud.snapshot</id>
-          <password>882347cc0631ecb8d15c0cb784e04639379468cceee53553</password>
+          <password>${env.PCLOUD}</password>
       </server>
       <server>
           <id>nexus-snapshot</id>
