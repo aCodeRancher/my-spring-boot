@@ -20,6 +20,9 @@ jobs:
       JVM_OPTS: -Xmx3200m
       TERM: dumb
 
+    dependencies:
+         my-spring-boot  : "git@github.com:aCodeRancher/my-spring-boot.git"
+
     steps:
       - checkout
 
