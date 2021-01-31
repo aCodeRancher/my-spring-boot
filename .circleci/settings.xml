@@ -38,7 +38,7 @@
       <server>
           <id>github</id>
           <username>aCodeRancher</username>
-          <password>pkChanRoTam12-16</password>
+          <password>${env.GHPWD}</password>
       </server>
       <server>
           <id>nexus-snapshot</id>
